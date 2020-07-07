@@ -1,0 +1,19 @@
+---
+regions:
+  - "global" # This is for all global resource types e.g. IAM
+  - "eu-west-1"
+
+account-blacklist:
+  - 1234567890
+
+accounts:
+  903227026965:
+    filters:
+      IAMUser:
+        - "stephanie.quinn"
+      IAMUserPolicyAttachment:
+        - property: RoleName
+          value: "stephanie.quinn"
+      IAMUserAccessKey:
+        - property: UserName
+          value: "stephanie.quinn"

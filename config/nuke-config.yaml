@@ -4,7 +4,7 @@ regions:
   - "eu-west-1"
 
 account-blacklist:
-  - 1234567890
+  - 123456789101
 
 accounts:
   903227026965:
@@ -12,7 +12,7 @@ accounts:
       IAMUser:
         - "stephanie.quinn"
       IAMUserPolicyAttachment:
-        - property: RoleName
+        - property: UserName
           value: "stephanie.quinn"
       IAMUserAccessKey:
         - property: UserName
